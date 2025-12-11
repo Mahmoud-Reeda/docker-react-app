@@ -28,7 +28,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/my-docker-react:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/my-docker-react:${{ github.sha }}
 
       - name: Deploy to main
         run: echo "Deploying to main environment"
