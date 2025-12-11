@@ -26,7 +26,7 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more || Docker React App
+        Click on the Vite and React logos to learn more || Docker React App || and tags
       </p>
     </>
   )
